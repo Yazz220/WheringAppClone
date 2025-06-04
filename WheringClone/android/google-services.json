@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "632668714713",
+    "project_id": "whering-app-clone-95d4d",
+    "storage_bucket": "whering-app-clone-95d4d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632668714713:android:ed418496677667357d70c8",
+        "android_client_info": {
+          "package_name": "com.wheringclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632668714713-9le2h9v3pgsfucqg9hkcvbegdkbabhoo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsUmQ30PqyoUV0a7s3ADDec6elWZoMW9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632668714713-9le2h9v3pgsfucqg9hkcvbegdkbabhoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

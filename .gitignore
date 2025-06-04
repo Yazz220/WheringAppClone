@@ -1,0 +1,77 @@
+# Node.js / React Native
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.env
+*.env.local
+*.env.*.local
+secrets.js # If you plan to store secrets here, ensure it's gitignored
+
+# React Native specific
+android/app/build/
+android/build/
+android/.gradle/
+android/app/src/main/assets/index.android.bundle*
+android/app/src/main/res/drawable-*/node_modules*
+ios/build/
+ios/Pods/
+*.ipa
+*.apk
+*.aab
+# debug.keystore is often generated and should not be committed
+android/app/debug.keystore
+android/app/*.keystore
+# If you have a release keystore, add its name here if you don't want to commit it
+# my-release-key.keystore
+
+# WheringClone specific (frontend)
+WheringClone/node_modules/
+WheringClone/android/app/build/
+WheringClone/android/build/
+WheringClone/android/.gradle/
+WheringClone/ios/build/
+WheringClone/ios/Pods/
+WheringClone/coverage/
+WheringClone/.expo/
+WheringClone/.husky/_/
+WheringClone/web-build/
+
+# whering-backend specific
+whering-backend/node_modules/
+whering-backend/dist/ # If you have a build output directory for backend
+whering-backend/.env
+whering-backend/coverage/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE / Editor specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.swp
+*~
