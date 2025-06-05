@@ -152,3 +152,71 @@
 
 ---
 **Concise Session Summary:** Set up the initial theme file, font configuration, placeholder screens, and the core navigation structure (Auth & Main Tab navigators). The app's basic UI shell is now defined. Next steps for the user are to finalize their local development environment and native library setups to test run the application.
+
+---
+**Date:** 2025-06-05 (Assumed date for this session)
+**Session Focus:** Phase 3 Implementation - User Onboarding & Authentication (Firebase Integration).
+
+---
+
+### 1. Tasks Completed This Session:
+*   [x] Implemented UI for `WelcomeScreen.tsx` with navigation to Login/SignUp.
+*   [x] Implemented UI for `LoginScreen.tsx` with email/password fields.
+*   [x] Implemented UI for `SignUpScreen.tsx` with email/password/confirm password fields and terms agreement.
+*   [x] Created placeholder files for `UserInfoScreen.tsx`, `UsernameScreen.tsx`, `InterestsScreen.tsx`.
+*   [x] Implemented UI for `UserInfoScreen.tsx` (first name, last name, birthdate).
+*   [x] Implemented UI for `UsernameScreen.tsx` (username, profile picture upload to Firebase Storage).
+*   [x] Implemented UI for `InterestsScreen.tsx` (interest selection, notification toggle).
+*   [x] Updated `AuthNavigator.tsx` to include all onboarding screens and their route params.
+*   [x] Integrated Firebase Authentication into `LoginScreen.tsx` & `SignUpScreen.tsx`.
+*   [x] Implemented Firebase Auth State Listener in `AppNavigator.tsx`.
+*   [x] Integrated Firebase Firestore into `InterestsScreen.tsx` to save user profile data.
+
+### 2. Key Decisions & Achievements:
+*   **Achievement:** Core user authentication & onboarding flow is functional using Firebase (Auth, Firestore, Storage for profile pics).
+*   **Achievement:** Phase 3: User Onboarding & Authentication is now complete.
+
+### 3. Current Overall Project Status:
+*   **Current Phase:** Phase 4: Wardrobe Management - Frontend & Backend.
+*   **Overall Progress:** User authentication, onboarding, and initial Phase 4 setup done.
+
+---
+**Date:** 2025-06-05 (Continued)
+**Session Focus:** Phase 4 Implementation - Wardrobe Management (Add Item Frontend Flow, View Items, Edit/Delete Items).
+
+---
+
+### 1. Tasks Completed This Session:
+*   [x] Created placeholder screens `AddItemSourceScreen.tsx` and `AddItemDetailsScreen.tsx`.
+*   [x] Implemented UI for `AddItemSourceScreen.tsx` (image source selection).
+*   [x] Created `AddItemStack.tsx` navigator; integrated into `MainTabNavigator.tsx` for "AddItem" tab.
+*   [x] Implemented UI for `AddItemDetailsScreen.tsx` (item details form).
+*   [x] Integrated Firebase Storage & Firestore into `AddItemDetailsScreen.tsx` for saving new items.
+*   [x] Implemented `WardrobeScreen.tsx` to display items from Firestore in a grid, with pull-to-refresh.
+*   [x] Created placeholder `ItemDetailsScreen.tsx`.
+*   [x] Implemented category filters (horizontal scroll) and search functionality in `WardrobeScreen.tsx`.
+*   [x] Implemented `ItemDetailsScreen.tsx` to fetch and display item details from Firestore, including Edit/Delete buttons.
+*   [x] Enhanced `ItemDetailsScreen.tsx` delete function to also remove image from Firebase Storage.
+*   [x] Implemented `EditItemScreen.tsx` (based on `AddItemDetailsScreen`) to edit item details, including image replacement and Firestore/Storage updates. Added navigation from `ItemDetailsScreen` to `EditItemScreen`.
+
+### 2. Key Decisions & Achievements:
+*   **Achievement:** Frontend for adding new wardrobe items is complete (image selection, details, Firebase save).
+*   **Achievement:** Frontend for viewing wardrobe items with filtering and search is implemented.
+*   **Achievement:** Frontend for viewing, editing, and deleting individual wardrobe items (with Firestore & Storage updates) is functional.
+*   **Achievement:** Substantial frontend portion of Phase 4: Wardrobe Management is complete.
+
+### 3. Current Overall Project Status:
+*   **Current Phase:** Transitioning to Phase 5: Outfit Creation & Management (Backend for Phase 4 image processing still pending).
+*   **Overall Progress:** Authentication, onboarding, and core wardrobe item management (frontend) are implemented.
+*   **Current Blockers/Risks:**
+    *   Backend image processing (background removal, auto-tagging via Cloud Function/API) for Phase 4 needs to be implemented by the user.
+    *   User to ensure all Phase 1 native configurations are complete for full app testing.
+    *   Google Cloud Vision API key still pending.
+
+### 4. Planned Next Steps (For Next Session):
+*   **Primary Goal:** Begin Phase 5: Outfit Creation & Management.
+*   Specific Task 1: Create placeholder screen `OutfitStudioScreen.tsx`.
+*   Specific Task 2: Implement basic UI for `OutfitStudioScreen.tsx` (canvas area, item picker access).
+
+---
+**Concise Session Summary:** Phase 4 (Wardrobe Management frontend) is largely complete, including adding, viewing, filtering, searching, editing, and deleting items with Firebase integration. Ready to proceed to Phase 5: Outfit Creation.
