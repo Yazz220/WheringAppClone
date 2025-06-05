@@ -115,7 +115,7 @@
 
 ---
 **Date:** 2025-06-04 1:45 PM
-**Session Focus:** Phase 2 Implementation - UI Foundation & Core Navigation Setup (Initial).
+**Session Focus:** Phase 2 (UI Foundation & Nav - Initial) & Version Control Setup.
 
 ---
 
@@ -130,15 +130,21 @@
 *   [x] Created `AuthNavigator.tsx`, `MainTabNavigator.tsx`, and root `AppNavigator.tsx`.
 *   [x] Updated `App.tsx` to use the `AppNavigator`.
 *   [x] Ensured `react-native-gesture-handler` is available/installed.
+*   [x] Initialized Git repository at the project root (`WheringAppClone`).
+*   [x] Created a `.gitignore` file.
+*   [x] Made the initial commit of all project files.
+*   [x] User created a GitHub repository.
+*   [x] Linked local repository to the remote GitHub repository and pushed the initial commit.
 
 ### 2. Key Decisions & Achievements:
 *   **Achievement:** Foundational structure for the app's theme and typography is in place.
 *   **Achievement:** Basic navigation structure (Auth flow, Main Tabs) with placeholder screens is implemented.
 *   **Achievement:** `App.tsx` is now wired to the navigation system.
+*   **Achievement:** Project is now under Git version control and pushed to GitHub.
 
 ### 3. Current Overall Project Status:
-*   **Current Phase:** Phase 2: UI Foundation & Core Navigation (In Progress).
-*   **Overall Progress:** Initial theme and navigation setup complete. App is structurally ready for UI development of individual screens.
+*   **Current Phase:** Phase 2: UI Foundation & Core Navigation (In Progress). Phase 1 (Environment Setup) has pending user-side tasks.
+*   **Overall Progress:** Initial theme, navigation setup, and version control complete. App is structurally ready for UI development of individual screens, pending full environment setup by user.
 *   **Current Blockers/Risks:**
     *   User to complete all pending Phase 1 tasks (Java/Android Studio setup, native library configs for image picker & vector icons, font file placement & linking) to enable app execution and testing.
 
@@ -151,4 +157,4 @@
 *   Next AI Task (after user confirmation of app running): Begin detailed UI implementation for the Welcome Screen (Phase 3 - Onboarding & Authentication).
 
 ---
-**Concise Session Summary:** Set up the initial theme file, font configuration, placeholder screens, and the core navigation structure (Auth & Main Tab navigators). The app's basic UI shell is now defined. Next steps for the user are to finalize their local development environment and native library setups to test run the application.
+**Concise Session Summary:** Set up initial theme, font config, placeholder screens, core navigation, and version control (Git/GitHub). App's basic UI shell is defined. Next steps for user: finalize local dev environment & native library setups to test run the app.
